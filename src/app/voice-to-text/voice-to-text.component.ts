@@ -27,7 +27,7 @@ interface ChatMessage {
                class="chat-history-item" 
                (click)="loadChat(i)"
                [@listAnimation]>
-            Chat {{i + 1}}
+            Chat {{i + 1}}  
           </div>
         </div>
       </div>
